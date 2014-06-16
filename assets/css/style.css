@@ -1,0 +1,213 @@
+/**
+*
+*  --------------------> BLOC GENERALE <-------------------------------------
+*
+* ---------- Dans ce bloc les trois balises de html qui seront traites ------------------
+* ---------- Les 3 balises sont "body", "html" et "page" --------------------------------
+* ---------- Pour les autres balises veuillez consulter le bloc concerne ----------------
+*
+*/
+
+html,*{
+	font: serif;
+}
+
+body {
+  text-align: center;
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
+  /*background-color: #333;*/
+  background-image: url('../images/bg.jpg');
+  background-size: 100%;
+  padding-top: 3%;
+  width: 100%;
+  height: auto;
+}
+
+#page{
+
+	border: 2px #ccc solid;
+	border-radius: 20px;
+	padding: 0px;
+	position: relative;
+
+}
+
+.color-black{
+	color: #000 !important;
+}
+
+.color-white{
+	color: #fff !important;
+}
+
+/* Fin du BLOC GENERALE*/
+
+/**
+*
+*	-------- BLOC ENTETE --------------
+*
+*/
+
+#entete{
+	background-color: #0D8FDB;
+	border-radius: 15px 15px 0px 0px;
+	border-bottom: 25px solid #39DBAC;
+}
+
+#entete_logo{
+	text-align: left;
+}
+
+#entete_logo > img{
+	border-radius: 15px 0px 0px 0px;
+	width: 100%;
+}
+
+#entete_texte{
+	text-align: center;	padding: 0px;
+	height: 105px;
+}
+
+#entete_texte > img{
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+/*Fin du BLOC ENTETE*/
+
+/**
+*
+* -------- BLOC SOMMAIRE ---------
+*
+*/
+#sommaire_et_contenu{
+	padding: 0px;
+	height: auto;
+}
+
+#sommaire{
+	background-color: #fff;
+	padding-top: 10%;
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	height: 100%;
+}
+
+#sommaire > li:hover{
+	background-color: #333;
+	color: #fff;
+}
+
+/**
+*
+* -------------Bloc Contenu------------
+*
+*/
+
+#Contenu{
+	padding: 20px;
+	height: auto;
+}
+
+
+
+/**
+*
+* ---------- BLOC PIED ---------------------
+*
+*/
+
+#pied{
+	background-color: #0D8FDB;
+	border-radius: 0px 0px 15px 15px;
+	border-top: 25px solid #39DBAC;
+}
+
+/**
+*
+* - Page coonecter.php
+*
+*/
+
+#formulaire_login{
+
+	width: 50%;
+	border: 10px #ccc solid;
+	border-radius: 5%;
+	padding: 5%;
+	margin: 0 auto;
+	text-align: left;
+
+}
+
+#formulaire_login > form > ul{
+	list-style-type: none;
+}
+
+/***
+*
+*
+*
+*/
+
+.tabel tr,.table td{
+	border-top: none;
+}
+
+/**
+*
+*--- Bloc PDF-----
+*
+*/
+
+.PDFPage{
+	background-color: #fff;
+	padding: 20px;
+}
+
+#PDFEntete{
+	margin: 20px;
+}
+
+.PDFContenu{
+
+}
+
+.PDFContenu > .titre{
+	color: blue !important;
+}
+
+.visiteur-info{
+	margin: 20px;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.visiteur-forfait-table, .visiteur-hors-forfait-table{
+	margin: 20px;
+}
+
+.visiteur-forfait-table > table{
+	width: 100%;
+}
+
+.visiteur-forfait-table > table > tr{
+	border: 10px solid black;
+	background-color: #ccc;
+}
+
+.total-frais{
+	margin-top: 20px;
+	width: 100%;
+}
+
+.total-frais > table{
+	width: 34%;
+	margin-left: 65%;
+
+}
+
+.signature{
+	margin-left: 55%;
+}
